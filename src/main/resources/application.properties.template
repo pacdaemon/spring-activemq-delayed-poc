@@ -1,0 +1,11 @@
+activemq.service.name=localhost
+activemq.service.port=443
+activemq.broker.url=ssl://${activemq.service.name}:${activemq.service.port}
+activemq.concurrent.consumers=10
+activemq.pool.max.connections=8
+activemq.broker.username=admin
+activemq.broker.password=admin
+activemq.truststore=/pathto/client.ts
+activemq.truststore.password=tspass
+activemq.keystore=/pathto/client.ks
+activemq.keystore.password=kspass
